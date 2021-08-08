@@ -1,0 +1,29 @@
+.node {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+  }
+  
+  .node-road {
+    background-color: rgb(255, 240, 240);
+  }
+
+  .node-house {
+    background-color: rgb(255, 251, 42);
+  }
+  
+  .node-hotel {
+    background-color: rgb(197, 41, 236);
+  }
+  
+  .node-visited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
